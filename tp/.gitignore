@@ -1,0 +1,41 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+.DS_Store?
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Logs
+*.log
+
+# Parent Downloads ignore
+../*.exe
+../*.msi
+../*.zip
+../*.pdf
+../*.docx
+../CV*
+../*.png
+../*.jpg
+../*.jpeg
+../.tmp*/
+
