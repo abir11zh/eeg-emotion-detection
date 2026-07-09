@@ -1,0 +1,35 @@
+{
+  "model": "bilstm",
+  "task": "valence",
+  "cv": "subject_dependent",
+  "mean_accuracy": 0.85,
+  "std_accuracy": 0.0,
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.85,
+      "f1_macro": 0.4594594594594595,
+      "history": {
+        "loss": [
+          0.5309843749835573
+        ],
+        "train_acc": [
+          0.8181034482758621
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.85,
+      "f1_macro": 0.4594594594594595,
+      "history": {
+        "loss": [
+          0.5326663555770085
+        ],
+        "train_acc": [
+          0.7672413793103449
+        ]
+      }
+    }
+  ]
+}
